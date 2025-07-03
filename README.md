@@ -39,7 +39,7 @@ python network_train.py --stage pretrain --name ReCIT --model VIT_S  --save_freq
 
 ```
 #test target dataset, e.g., ISIC
-python network_test.py --ckp_path output/checkpoints/ReCIT/best_ave_model.tar  --model VIT_S --stage pretrain --dataset ISIC --n_shot 5 
+python network_test.py --ckp_path output/checkpoints/ReCIT/best_ISIC_model.tar  --model VIT_S --stage pretrain --dataset ISIC --n_shot 5 
 ```
 
 The training script also includes a test for each epoch.
