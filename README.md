@@ -23,7 +23,8 @@ pip3 install h5py>=2.9.0
 
 Five datasets, including miniImagenet, CropDiseases, EuroSAT, ISIC2018, and ChestX, are used.
 
-Following the [FWT-repo](https://github.com/hytseng0509/CrossDomainFewShot) to download and set up all datasets.
+Following the [FWT-repo](https://github.com/hytseng0509/CrossDomainFewShot) and [cdfsl-benchmark-repo
+](https://github.com/IBM/cdfsl-benchmark)to download and set up all datasets.
 
 Remember to modify your dataset dir in the 'options.py'
 
